@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Фонарик</string>
+    <string name="error_text">Вспышка камеры недоступна!</string>
+    <string name="switch_text_on">ON</string>
+    <string name="switch_text_off">OFF</string>
+</resources>

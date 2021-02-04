@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges="orientation|keyboardHidden|screenSize">
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchOnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="false"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="@string/switch_text_on"
+        android:theme="@style/MySwitch"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</FrameLayout>
